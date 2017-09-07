@@ -1,0 +1,5 @@
+16, Insertion sort: 0.0, Comparable Insertion Sort: 0.001, Binary sort: 0.001, Merge sort: 0.013, Heap sort: 0.022
+64, Insertion sort: 0.0, Comparable Insertion Sort: 0.001, Binary sort: 0.003, Merge sort: 0.015, Heap sort: 0.045
+256, Insertion sort: 0.001, Comparable Insertion Sort: 0.0, Binary sort: 0.001, Merge sort: 0.006, Heap sort: 0.07200000000000001
+1024, Insertion sort: 0.0, Comparable Insertion Sort: 0.0, Binary sort: 0.0, Merge sort: 0.002, Heap sort: 0.001
+4096, Insertion sort: 0.001, Comparable Insertion Sort: 0.0, Binary sort: 0.001, Merge sort: 0.001, Heap sort: 0.004

@@ -1,0 +1,26 @@
+Scheduling	is	an	important	concept	which	makes	it	possible	 for	a	single	CPU	to	multitask.	The	
+CPU	scheduler	can	aim	for	one	of	many	different	goals	such	as,	ensuring the	highest	number	of	
+jobs	are	being	processed	during	a	time	period,	minimizing	the	amount	of	time	each	job	has	to	
+wait,	or	ensuring	that	each	job	gets	an	equal	amount	of	processing	time.
+
+
+One	 common	 scheduling	 policy	is	shortest	job	 first.	If	we have	N jobs	 to	 complete at	 time	t,	
+each	job	j requiring	j(t)	seconds	of	processing	time,	then	the	job	with	the	lowest	processing time	
+would	be	scheduled	first.	This	is	where	a	sorting	algorithm	needs	to	be	applied. For	the	purpose	
+of	this	assignment,	you	can	assume	that	the	scheduler	puts	all	available	jobs	that	arrive	at	the	
+same time	into	a	queue	based	upon	the	shortest	job	first	policy.	Once	jobs	are	placed	into	the	
+queue,	they	are	not	modified	anymore.	For	example,	job	A	arrives	at	t	=	1	and	has	a	processing	
+time	of	3,	job	B	arrives	at	t	=	3	and	has	a	processing	time	of	4,	job	C	arrives	at	t	=	1	and	has	a	
+processing	time	of	2,	and	job	D	arrives	at	t	=	4	and	has	a	processing	time	of	1.	The	resulting	job	
+schedule would be C, A,	B, D.
+
+The purpose of this project is to 	to	implement	three	sorting	algorithms	for	a	number	of	scheduling	
+problems	 of	 various	 sizes,	 and	 then	 explain	 in	 detail	 which	 one	 is	 the	 most	 preferable	 with	
+respect	 to	 the	 running	 time.	 The	 entire	 process	 must	 be	 done	 as	 a	 software	 engineering	
+experiment	with	the	proper	use	of	analysis	to	compare	the	results	for	each	implementation
+
+
+To	start	with,	you	will	need	an	input	file	of	jobs	to	sort. This input file is created using random number generators
+in the Gen.java File.
+
+
